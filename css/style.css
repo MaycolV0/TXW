@@ -343,17 +343,6 @@ a:hover {
 	color:#E8CE0E;
 }
 
-#about-us {
-	margin-bottom:50px;
-}
-
-#about-us .text-center h2 {
-	text-transform:uppercase;
-	font-weight:550;
-	font-size:24px;
-	margin-bottom:30px;
-}
-
 .skill_text {
   display: block;
   margin-bottom: 60px;
@@ -703,14 +692,14 @@ ul.social_icons li  a i{
 }
 
 /*===========================
-  services
+  reservas
 ============================ */
 
-.services {
+.reservas {
 	padding:80px 0 80px 0;
 }
 
-.services .text-center h2 {
+.reservas .text-center h2 {
 	font-weight:300;
 	text-transform:uppercase;
 	text-shadow:none;
@@ -718,14 +707,14 @@ ul.social_icons li  a i{
 	font-size:24px;
 }
 
-.services i {
+.reservas i {
 	margin-top:20px;
 	margin-bottom:10px;
 	font-size:50px;
 	color:#ddd;
 }
 
-.services h3 {
+.reservas h3 {
 	margin-bottom:20px;
 	font-size: 16px;
 	font-weight: 600;
@@ -734,21 +723,21 @@ ul.social_icons li  a i{
  }
 
 /*===========================
-  gallery
+  paquetes
 ============================ */
 
-.gallery {
+.paquetes {
 	padding:50px;
 }
 
-.gallery .text-center h2 {
+.paquetes .text-center h2 {
 	text-transform:uppercase;
 	font-weight:550;
 	font-size:24px;
 	margin-bottom:30px;
 }
 
-.gallery figure {
+.paquetes figure {
 	position: relative;	
 	margin-top:30px;
 	margin-bottom:30px;
@@ -757,13 +746,13 @@ ul.social_icons li  a i{
 	cursor: pointer;
 }
 
-.gallery figure img {
+.paquetes figure img {
 	position: relative;
 	display: block;
 	opacity: 0.8;
 }
 
-.gallery figure figcaption {
+.paquetes figure figcaption {
 	padding: 2em;
 	color: #fff;
 	text-transform: uppercase;
@@ -772,8 +761,8 @@ ul.social_icons li  a i{
 	backface-visibility: hidden;
 }
 
-.gallery figure figcaption::before,
-.gallery figure figcaption::after {
+.paquetes figure figcaption::before,
+.paquetes figure figcaption::after {
 	pointer-events: none;
 }
 
@@ -895,24 +884,24 @@ figure.effect-marley:hover p {
     height: 400px;
 }
 
-.contact-page{
+.contacto-page{
   padding-top: 0;
   background:#fff;
   margin-bottom:30px;
 }
 
-.contact-page h2 {
+.contacto-page h2 {
 	text-transform:uppercase;
 	font-weight:550;
 	font-size:24px;
 	margin-bottom:30px;
 }
 
-.contact-page p {	
+.contacto-page p {	
 	margin-bottom:30px;
 }
 
-.contact-page .contact-form 
+.contacto-page .contacto-form 
 .form-group label {
   color: #4E4E4E;
   font-size: 16px;
@@ -932,7 +921,7 @@ textarea#message{
    border-radius:0;
 }
 
-.contact-page .contact-wrap {
+.contacto-page .contacto-wrap {
   margin-top: 20px;
 }
 
@@ -1026,16 +1015,16 @@ footer .btn-gamp input {
 	border: 1px solid #fff;
 }
 
-.contact-info {
+.contacto-info {
 	color:#fff;
 }
 
-.contact-info ul {
+.contacto-info ul {
 	list-style:none;
 	padding-left: 0;
 }
 
-.contact-info ul li i {
+.contacto-info ul li i {
 	margin-bottom:20px;
 }
 
@@ -1043,20 +1032,20 @@ footer .btn-gamp input {
   padding-left: 0;
 }
 
-ul.sidebar-gallery {
+ul.sidebar-paquetes {
   list-style: none;
   padding: 0;
   margin: 0;
  
 }
 
-.sidebar-gallery li {
+.sidebar-paquetes li {
   display: inline-block;
   margin: 0 10px 10px 0;
    border-radius:0px;
 }
 
-.sidebar-gallery li a {
+.sidebar-paquetes li a {
   display: inline-block;
 }
 

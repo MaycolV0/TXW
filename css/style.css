@@ -36,6 +36,15 @@ a {
     outline: none;
 	color:#272727;
 }
+
+.cityT {
+  font-family:'Open Sans', Arial, sans-serif;
+	font-size:1.1em;
+	font-weight:300;
+	line-height:1.6em;
+	color:#fff;
+	overflow-x:hidden;
+}
 a:hover {
 	text-decoration: none;
 	color:#aaa;	

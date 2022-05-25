@@ -50,58 +50,80 @@
   </header>
   <!--/header-->
 
-  <div class="reservas">
+  
+  <section class="contacto-page">
     <div class="container">
       <div class="text-center">
-        <h2>RESERVAS</h2>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <i class="fa fa-heart-o"></i>
-          <h3>Fully Responsive</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <i class="fa fa-cloud"></i>
-          <h3>Retina Ready</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-book"></i>
-          <h3>Fresh and Clean</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-          <i class="fa fa-gear"></i>
-          <h3>Easy to Customize</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
+        <h2>REALIZA ACA TU RESERVA!</h2>
+        <p>Para tour extremo es un placer que te aventures con nosotros</p>
       </div>
-    </div>
-    <div class="text-center">
-      <div class="container">
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <i class="fa fa-heart-o"></i>
-          <h3>Fully Responsive</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <i class="fa fa-cloud"></i>
-          <h3>Retina Ready</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-book"></i>
-          <h3>Fresh and Clean</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-        <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-          <i class="fa fa-gear"></i>
-          <h3>Easy to Customize</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-        </div>
-      </div>
-    </div>
-  </div>
+      <div class="row contacto-wrap">
+        <div class="col-md-6 col-md-offset-3">
+          <div id="sendmessage">Su mensaje ha sido enviado. Gracias!</div>
+          <div id="errormessage"></div>
+          <form action="" method="post" role="form" class="contactoForm">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Nombre Completo" data-rule="minlen:4" data-msg="Por favor ingrese al menos  4 caracteres" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" name="cedula" class="form-control" id="cedula" placeholder="Numero de documento" data-rule="minlen:4" data-msg="Por favor ingrese al menos  4 caracteres" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Correo electronico" data-rule="email" data-msg="Por favor ingrese un correo valido" />
+              <div class="validation"></div>
+            </div>
 
+            <div class="form-group">
+              <input type="number" min="1" pattern="^[0-9]+" class="form-control" name="numPersonas" id="numPersonas" placeholder="Numero de personas" data-rule="minlen:4" data-msg="Por favor ingrese al menos 8 caracteres en el asunto" />
+              <div class="validation"></div>
+            </div>
+            <p > Selecciona la ciudad </p>
+            <select >
+              <option>Medellin</option>
+              <option selected="selected">Ciudad de Mexico </option>
+              <option>Miami </option>
+              <option>Quito</option>
+              <option>Rio de Janeiro </option>
+              <option>Santa Marta</option>
+            </select>
+            <br>
+            <br>
+            
+
+            <p > Selecciona el sitio turistico </p>
+            <select >
+              <option>Medellin - Tour a Guatape</option>
+              <option selected="selected">Ciudad de Mexico -  Basílica de la Virgen Guadalupe </option>
+              <option>Miami - Palm Beach </option>
+              <option>Quito - Parque Arqueológico Cochasquí</option>
+              <option>Rio de Janeiro - Cristo Redentor </option>
+              <option>Santa Marta</option>
+            </select>
+            <br>
+            <br>
+
+            <p > Selecciona la fecha de viaje </p>
+
+            <div class="form-group">
+              <input type="date" name="fecha" class="form-control" id="fecha" data-rule="minlen:4" data-msg="Por favor ingrese al menos  4 caracteres" />
+              <div class="validation"></div>
+            </div>
+            
+            <div class="text-center"><button type="submit" name="volver" class="btn btn-primary btn-lg" required="required">Reservar</button></div>
+            <div class="text-center"><button type="submit" name="reservar" class="btn btn-primary btn-lg" required="required">Volver</button></div>
+          </form>
+        </div>
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </section>
+  <!--/#contacto-page-->
+
+
+ 
   <footer>
     <div class="container">
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">

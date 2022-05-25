@@ -34,7 +34,7 @@ a {
     -webkit-transition: all 0.1s ease-in-out;
     -o-transition: all 0.1s ease-in-out;
     outline: none;
-	color:#272727;
+	  color:#272727;
 }
 
 .cityT {
@@ -45,6 +45,7 @@ a {
 	color:#fff;
 	overflow-x:hidden;
 }
+
 a:hover {
 	text-decoration: none;
 	color:#aaa;	
@@ -723,7 +724,7 @@ ul.social_icons li  a i{
 	color:#ddd;
 }
 
-.reservas h3 {
+.reservas {
 	margin-bottom:10px;
 	font-size: 4px;
 	font-weight: 100;
@@ -1133,8 +1134,8 @@ ul.social-network li a {
 }
 
 .container-form {
-  width: 90%;
-  height: 90vh;
+  width: 100%;
+  height: 60vh;
   display: flex;
   justify-content: space-around;
   transition:  all .5s ease-out;
@@ -1151,39 +1152,40 @@ ul.social-network li a {
 }
 
 .message h2 {
-  font-size: 1.7rem;
+  font-size: 4rem;
   padding: 1rem 0;
 }
 
 .message button {
   padding: 1rem;
   font-weight: 400;
-  background-color: #036635;
+  background-color: rgb(3, 102, 53);
   border-radius: 2rem;
   border: none;
   outline: none;
   cursor: pointer;
-  font-size: .9rem;
+  font-size: 2rem;
   margin-top: 2rem;
   transition: all .3s ease-in;
   color: #fff;
 }
 
 .message button:hover {
-  background-color:#2ea86b;
+  background-color:rgb(46, 168, 107);
 }
 
 .formulario {
   width: 400px;
   padding: 1rem;
   margin: 2rem;
-  background-color: rgb(51, 51, 51, 0.602);
+  background-color: rgb(3, 102, 53);
   text-align: center;
 }
 
 .create-account {
   padding: 2.7rem 0;
-  font-size: 1.7rem;
+  font-size: 3.2rem;
+  color: #fff;
 }
 
 .iconos {
@@ -1200,7 +1202,7 @@ ul.social-network li a {
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  border: solid thin white;
+  border: solid thin #fff;
   border-radius: 50%;
   font-size: 1.5rem;
   transition: all .3s ease-in;
@@ -1213,6 +1215,7 @@ ul.social-network li a {
 
 .cuenta-gratis {
   padding: 2rem 0;
+  color: #fff;
 }
 
 .formulario input {
@@ -1226,7 +1229,7 @@ ul.social-network li a {
   text-align: center;
   outline: none;
   padding: .2rem 0;
-  font-size: .9rem;
+  font-size: 1.8rem;
   color: white;
 }
 
@@ -1239,7 +1242,7 @@ ul.social-network li a {
   background-color: white;
   font-weight: 600;
   margin-top: 3rem;
-  font-size: .8rem;
+  font-size: 2.4rem;
   cursor: pointer;
   color: #222;
 }
